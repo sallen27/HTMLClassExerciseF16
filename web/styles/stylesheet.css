@@ -1,0 +1,93 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 14, 2016, 9:48:06 AM
+    Author     : SarahAllen
+*/
+
+body {
+  background-image: url(../images/bats.gif);
+  background-repeat: repeat;
+  font-family: 'Ariel', Helvetica, sans-serif
+}
+
+#wrapper {
+  border: solid black 5px;
+  box-shadow: 5px 5px 10px 10px #000000;
+  margin: 0 auto;
+  margin-bottom: 75px;
+  width: 800px;
+}
+
+img {
+  float: left;
+  padding-left: 15px;
+  padding-right: 30px;
+  padding-top: 15px;
+  
+}
+
+header {
+  border-bottom: solid black 2px;
+  background: linear-gradient(45deg, white, orange, orange 75%, black);
+  padding-top: 4px;
+}
+
+#mainTitle {
+  padding-left: 10px;
+}
+
+main{
+  background-color: white;
+  margin-bottom: -17px;
+  margin-top: -22px;
+  padding-left: 7px;
+  padding-right: 15px;
+  padding-bottom: 7px;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.75em
+}
+
+#firstMain::first-letter {
+  font-size: 200%;
+}
+
+#goblin {
+  line-height: 15px;
+  margin-left: 120px;
+}
+
+a:link {
+  color: orange;
+  font-weight: bold;
+}
+
+a:hover{
+  color: green;
+}
+
+ul{
+  line-height: 30px;
+}
+
+footer{
+  background: linear-gradient(45deg, black, orange, orange 75%, white);
+  border-top: solid black 2px;
+  font-size: 12px;
+  padding-bottom: 4px;
+  text-align: center;
+  
+}
