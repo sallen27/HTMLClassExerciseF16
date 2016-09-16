@@ -22,17 +22,16 @@ body {
   width: 800px;
 }
 
-img {
+#pumpkin {
   float: left;
   padding-left: 15px;
   padding-right: 30px;
   padding-top: 15px;
-  
 }
 
 header {
-  border-bottom: solid black 2px;
   background: linear-gradient(45deg, white, orange, orange 75%, black);
+  border-bottom: solid black 2px;
   padding-top: 4px;
 }
 
@@ -42,15 +41,23 @@ header {
 
 main{
   background-color: white;
-  margin-bottom: -17px;
-  margin-top: -22px;
+  display: block;
+  float: right;
+  padding-bottom: 7px;
   padding-left: 7px;
   padding-right: 15px;
-  padding-bottom: 7px;
+  width: 618px;
 }
 
+aside {
+  background-color: white;
+  float: left;
+  padding-bottom: 40.7%;
+  position: absolute;
+  width: 160px;
+}
 h1 {
-  font-size: 2.5em;
+  font-size: 4em;
 }
 
 h2 {
@@ -86,8 +93,8 @@ ul{
 footer{
   background: linear-gradient(45deg, black, orange, orange 75%, white);
   border-top: solid black 2px;
+  clear: both;
   font-size: 12px;
   padding-bottom: 4px;
   text-align: center;
-  
 }
