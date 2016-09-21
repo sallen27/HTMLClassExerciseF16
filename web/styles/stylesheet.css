@@ -52,9 +52,10 @@ main{
 aside {
   background-color: white;
   float: left;
-  padding-bottom: 40.7%;
+  padding-bottom: 37.33%;
   position: absolute;
   width: 160px;
+  margin-top: 0px;
 }
 h1 {
   font-size: 4em;
@@ -86,10 +87,6 @@ a:hover{
   color: green;
 }
 
-ul{
-  line-height: 30px;
-}
-
 footer{
   background: linear-gradient(45deg, black, orange, orange 75%, white);
   border-top: solid black 2px;
@@ -97,4 +94,69 @@ footer{
   font-size: 12px;
   padding-bottom: 4px;
   text-align: center;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+aside li a {
+  display: block;
+  background: orange;
+  border: 2px solid black;
+  font-size: 1em;
+  line-height: 2em;
+  padding: .2em 0 .2em 1em;
+  margin-bottom: .2em;
+  text-decoration: none;
+  width: 8em;
+}
+
+aside li a:link{
+  color: black;
+}
+aside nav {
+  margin-left: .5em;
+  margin-top: .75em;
+}
+ 
+#horizontal{
+  background-color: white;
+}
+#horizontal nav ul, 
+#horizontal nav li {
+  float: left;
+}
+
+#horizontal nav li a {
+  background: black;
+  display: block;
+  line-height: 2em;
+  padding: 0 2.41em;
+}
+
+#horizontal li a:link{
+  color: white;
+  text-decoration: none;
+}
+
+#horizontal li a:hover{
+  color: grey;
+}
+
+#horizontal li a.current {
+  color: orange;
+}
+
+.cf:before,
+.cf:after {
+  content: "";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
 }
