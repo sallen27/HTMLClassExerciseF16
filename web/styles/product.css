@@ -1,0 +1,201 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 21, 2016, 10:07:09 AM
+    Author     : SarahAllen
+*/
+
+body {
+  background-image: url(../images/bats.gif);
+  background-repeat: repeat;
+  font-family: 'Ariel', Helvetica, sans-serif
+}
+
+#wrapper {
+  border: solid black 5px;
+  box-shadow: 5px 5px 10px 10px #000000;
+  margin: 0 auto;
+  margin-bottom: 75px;
+  width: 800px;
+}
+
+#pumpkin {
+  float: left;
+  padding-left: 15px;
+  padding-right: 30px;
+  padding-top: 15px;
+}
+
+header {
+  background: linear-gradient(45deg, white, orange, orange 75%, black);
+  border-bottom: solid black 2px;
+  padding-top: 4px;
+}
+
+#mainTitle {
+  padding-left: 10px;
+
+}
+
+main{
+  background-color: white;
+  display: block;
+  float: right;
+  padding-bottom: 7px;
+  padding-left: 7px;
+  padding-right: 175px;
+  width: 458px;
+}
+
+#description {
+  float: left;
+  padding-left:7px;
+}
+
+#cat {
+  float: left;
+}
+
+#left {
+  background-color: white;
+  float: left;
+  padding-bottom: 18.3%;
+  position: absolute;
+  width: 160px;
+  margin-top: 0px;
+}
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.75em
+}
+
+#goblin {
+  line-height: 15px;
+  margin-left: 120px;
+  margin-top: -25px;
+}
+
+a:link {
+  color: orange;
+  font-weight: bold;
+}
+
+a:hover{
+  color: green;
+}
+
+footer{
+  background: linear-gradient(45deg, black, orange, orange 75%, white);
+  border-top: solid black 2px;
+  clear: both;
+  font-size: 12px;
+  padding-bottom: 4px;
+  text-align: center;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#right {
+  background-color: #F5DEB3;
+  float: right;
+  margin-bottom: -7px;
+  margin-right: -175px;
+  padding-left: 10px;
+  padding-right: 5px;
+  width: 180px;
+  margin-top: -176px;
+  padding-bottom: 10px;
+}
+
+#right ul li a {
+  color: black;
+  font-weight: normal;
+  line-height: 2em;
+}
+
+#right ul li a:hover{
+  color: green;
+}
+
+#right ul {
+  padding-left: 10px;
+}
+#right img { 
+  height: auto;
+  width: auto;
+  max-height: 75px;
+}
+
+#left li a {
+  display: block;
+  background: orange;
+  border: 2px solid black;
+  font-size: 1em;
+  line-height: 2em;
+  padding: .2em 0 .2em 1em;
+  margin-bottom: .2em;
+  text-decoration: none;
+  width: 8em;
+}
+
+#left li a:link{
+  color: black;
+}
+#left nav {
+  margin-left: .5em;
+  margin-top: .75em;
+}
+ 
+#horizontal{
+  background-color: white;
+}
+#horizontal nav ul, 
+#horizontal nav li {
+  float: left;
+}
+
+#horizontal nav li a {
+  background: black;
+  display: block;
+  line-height: 2em;
+  padding: 0 2.41em;
+}
+
+#horizontal li a:link{
+  color: white;
+  text-decoration: none;
+}
+
+#horizontal li a:hover{
+  color: grey;
+}
+
+#horizontal li a.current {
+  color: orange;
+}
+
+.cf:before,
+.cf:after {
+  content: "";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
